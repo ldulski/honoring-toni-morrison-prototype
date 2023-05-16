@@ -1,0 +1,113 @@
+/* section styles for home page */
+img{
+    width: 40%;
+}
+.quotation{
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 2em;
+}
+.quotation > div{
+    margin: 2em;
+}
+.el-container{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.honoring-section{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.honoring-section div{
+    margin-right: 2em;
+    padding: 1em;
+}
+/* image carousel styles */
+.carousel{
+    width: 100vw;
+    height: 100vh;
+    position:relative;
+    margin-bottom: 1rem;
+}
+.carousel > ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.slide{
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+}
+.slide > img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.slide > div{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 2rem;
+}
+.slide[data-active] {
+    opacity: 1;
+    z-index: 1;
+    transition-delay: 0ms;
+}
+.carousel-button{
+    position: absolute;
+    z-index: 2;
+   background: none;
+   font-size: 4rem;
+   top: 50%;
+   transform: translateY(-50%);
+   color:#1F3D7A;
+   cursor: pointer;
+   border-radius: .25rem;
+   padding: 0.5rem;
+
+}
+.carousel-button:hover,
+.carousel-button:focus {
+  color: #EDD767;
+
+}
+
+.carousel-button:focus {
+  outline: 1px solid #1F3D7A;
+}
+
+.carousel-button.prev {
+  left: .5rem;
+}
+
+.carousel-button.next {
+  right: .5rem;
+}
+
+.cta-section{
+    background-color: #EDD767;
+    padding: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+}
+.cta-section form{
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75rem;
+   text-decoration: none;
+}
+.cta-section form > input{
+    background-color: white;
+    padding: 5px 10px;
+    border: solid #1F3D7A 2px;
+}

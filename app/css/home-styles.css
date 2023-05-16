@@ -7,7 +7,7 @@ img{
     flex-flow: row nowrap;
     padding: 2em;
 }
-.quotation div{
+.quotation > div{
     margin: 2em;
 }
 .cta-section{
