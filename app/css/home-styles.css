@@ -1,0 +1,31 @@
+/* section styles for home page */
+
+.quotation{
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 2rem;
+}
+.quotation div{
+    margin: 2rem;
+}
+.cta-section{
+    background-color: #EDD767;
+    padding: 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+}
+.cta-section form{
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75rem;
+   text-decoration: none;
+}
+.cta-section form > input{
+    background-color: white;
+    padding: 5px 10px;
+    border: solid #1F3D7A 2px;
+}
