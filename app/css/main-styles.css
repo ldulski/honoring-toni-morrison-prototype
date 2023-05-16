@@ -4,6 +4,7 @@ html{
     font-size: 100%;
     box-sizing: border-box;
     max-width: 1290px;
+    scroll-behavior: smooth;
 
 }
 body{
@@ -73,10 +74,7 @@ a{
     line-height: 1.75rem;
    text-decoration: none;
 }
-a:hover{
-    text-decoration: underline;
 
-}
 a:visited{
     color: #edd767;
 }
@@ -126,9 +124,7 @@ nav li > a:hover{
     color: #1F3D7A;
 }
 
-img{
-    width: 40%;
-}
+
 /* section styles */
 header div{
     display: flex;

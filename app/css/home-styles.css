@@ -1,5 +1,7 @@
 /* section styles for home page */
-
+img{
+    width: 40%;
+}
 .quotation{
     display: flex;
     flex-flow: row nowrap;
