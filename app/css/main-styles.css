@@ -3,12 +3,13 @@
 html{
     font-size: 100%;
     box-sizing: border-box;
-    max-width: 1280px;
+    max-width: 1290px;
 
 }
 body{
-background-image: url("app/image/bg-pattern-1.svg");
-margin: 0px;
+/* background-image: url("app/image/bg-pattern-1.svg"); */
+margin: 0;
+padding: 0;
 }
 /* type styles */
 h1{
@@ -108,7 +109,7 @@ nav li > a:hover{
 .cta-signup{
         min-width: 115px;
         height: 25px;
-        margin-left: 2rem;
+        margin-left: 2em;
         color: #fff;
         padding: 5px 10px;
         cursor: pointer;
@@ -132,21 +133,45 @@ img{
 header div{
     display: flex;
     flex-flow: column nowrap;
-    margin: 2rem;
+    margin: 2em;
 }
 section{
     background-color: cornflowerblue;
-    margin: 2rem;
+    margin: 2em;
+}
+
+footer{
     display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-  
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2em;
+    background-color: darkgrey;
+}
+footer > .logo{
+    width: 20%;
+}
+footer > div{
+padding: 1em;
+max-width: 200px;
+height: 300px;
+display: flex;
+flex-flow: column nowrap;
+justify-content: flex-start;
+align-items: center;
+background-color: fuchsia;
+}
+#socials > ul{
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 1em;
+    background-color:antiquewhite
 }
 
 /* footer collapsible wrapper styles */
 .collapsible {
-    background-color: #eee;
-    color: #444;
+    background-color: #E9EFFB;
+    color: #1F3D7A;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -156,11 +181,12 @@ section{
     font-size: 15px;
   }
   .active, .collapsible:hover {
-    background-color: #ccc;
+    background-color: #1F3D7A;
+    color: #E9EFFB;
   }
   .content {
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #E9EFFB;
   }

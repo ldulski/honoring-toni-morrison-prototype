@@ -3,14 +3,14 @@
 .quotation{
     display: flex;
     flex-flow: row nowrap;
-    padding: 2rem;
+    padding: 2em;
 }
 .quotation div{
-    margin: 2rem;
+    margin: 2em;
 }
 .cta-section{
     background-color: #EDD767;
-    padding: 1rem;
+    padding: 1em;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
@@ -28,4 +28,31 @@
     background-color: white;
     padding: 5px 10px;
     border: solid #1F3D7A 2px;
+}
+
+.featured-films{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 1em;
+}
+.feat-film-card-1{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    margin: 1em;
+    background-color: aquamarine;
+}
+.feat-film-card-1 > div{
+    margin: 1.75em;
+}
+.feat-film-card-2{
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    align-items: flex-start;
+    margin: 1em;
+    background-color: aquamarine;
+}
+.feat-film-card-2 > div{
+    margin: 1.75em;
+    padding: 0em 1em;
 }
