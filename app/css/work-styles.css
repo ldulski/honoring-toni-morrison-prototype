@@ -1,0 +1,87 @@
+img{
+    width: 50%;
+}
+.section-hero{
+    margin: 4em;
+}
+.works-container{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 4em;
+    gap: 2em;
+}
+
+.section-header{
+    margin: 4em;
+}
+
+.novel-section-R{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 2em;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4em;
+}
+.novel-section-R img{
+    width: 30%
+}
+section h4,p{
+    margin-bottom: 1em;
+}
+.novel-section-L{
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    gap: 2em;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4em;
+}
+.novel-section-L img{
+    width: 30%;
+}
+/* store locator styles */
+.store-locator{
+    margin: 4em;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1em;
+    padding: 2em;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+/* shop button styles */
+.shop-local {
+    min-width: 120px;
+    color: #16284D;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 8px;
+    border: solid #16284D 2px;
+
+  }
+  .shop-local:hover {
+    border-radius: 8px;
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  .shop-local:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  .shop-local:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 35px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+  }

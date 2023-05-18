@@ -1,27 +1,10 @@
-/* section styles for home page */
-img{
-    width: 40%;
+.hero-headers{
+    margin: 4em;
 }
-.quotation{
-    display: flex;
-    flex-flow: row nowrap;
-    padding: 2em;
+.hero-headers h2{
+    margin-bottom: 1em;
 }
-.quotation > div{
-    margin: 2em;
-}
-.el-container{
-    display: flex;
-    flex-flow: row nowrap;
-}
-.honoring-section{
-    display: flex;
-    flex-flow: row nowrap;
-}
-.honoring-section div{
-    margin-right: 2em;
-    padding: 1em;
-}
+
 /* image carousel styles */
 .carousel{
     width: 100vw;
@@ -89,4 +72,28 @@ img{
 .carousel-button.next {
   right: .5rem;
 }
-
+.quote-section{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+}
+.impact-section{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 2em;
+    padding: 2em;
+    justify-content: space-around;
+    align-items: center;
+}
+.impact-section p{
+    flex-basis: 55%;
+}
+.legacy-section{
+display: flex;
+flex-flow: column wrap;
+gap: 2em;
+padding: 2em;
+}
