@@ -106,41 +106,48 @@ a:visited{
     float: right;
 }
 /* nav styles */
-
-nav ul{
- list-style-type: none;
- overflow: hidden;
- background-color: #E9EFFB;
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E9EFFB;
+    font-size: 1.77rem;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 400;
 }
-nav li{
+li{
     display: inline-block;
-    padding: 1em;
+    padding: 2em;
 }
-nav li > a{
-    color: #16284d;
-    text-align: center;
+li a {
     padding: 14px 16px;
-    text-decoration: none;
 }
-nav li > a:hover{
-    background-color: #1F3D7A;
-    color:#E9EFFB
+li a:hover{
+    border-bottom: solid 2px #1F3D7A;
+    transition-property: width;
+    transition-duration: 400ms;
+    transition-timing-function: ease-in-out;
 }
 #logo{
-    width: 50%;
     float: left;
+    width: 50%;
 }
-
+#logo:hover{
+    border-bottom: none;
+}
+#cta-button{
+    float: right;
+}
 .cta-signup{
-        min-width: 115px;
+        min-width: 120px;
         height: 25px;
         margin-left: 2em;
-        color: #fff;
+        color: #E9EFFB;
         padding: 5px 10px;
         cursor: pointer;
         transition: all 0.3s ease;
         position: relative;
-        display: inline-block;
         outline: none;
         border-radius: 5px;
         border: 2px solid #1F3D7A;
