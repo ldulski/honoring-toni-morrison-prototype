@@ -22,6 +22,7 @@ img{
     justify-content: space-around;
     align-items: center;
     margin: 4em;
+    padding: 1rem;
 }
 .novel-section-R img{
     width: 30%
@@ -36,6 +37,7 @@ section h4,p{
     justify-content: space-around;
     align-items: center;
     margin: 4em;
+    padding: 1rem;
 }
 .novel-section-L img{
     width: 30%;
@@ -53,7 +55,7 @@ section h4,p{
 
 /* shop button styles */
 .shop-local {
-    min-width: 120px;
+    min-width: 110px;
     color: #16284D;
     padding: 5px 10px;
     cursor: pointer;
@@ -68,7 +70,7 @@ section h4,p{
   }
   .shop-local:hover {
     border-radius: 8px;
-    padding-right: 24px;
+    padding-right: 10px;
     padding-left:8px;
   }
   .shop-local:hover:after {
@@ -76,6 +78,39 @@ section h4,p{
     right: 10px;
   }
   .shop-local:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 35px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+  }
+
+  .visit-store-button {
+    min-width: 110px;
+    color: #16284D;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #EDD767;
+  }
+  .visit-store-button:hover {
+    border-radius: 8px;
+    padding-right: 10px;
+    padding-left:8px;
+  }
+  .visit-store-button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  .visit-store-button:after {
     content: "\00BB";
     position: absolute;
     opacity: 0;

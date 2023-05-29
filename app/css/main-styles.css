@@ -20,42 +20,42 @@ h1{
     font-family: 'Fraunces', serif;
     color:#16284d;
     font-size: 4.209rem;
-    margin:0;
+    margin-bottom: 1rem;
     padding:0;
 }
 h2{
     font-family: 'Fraunces', serif;
     color:#16284d; 
     font-size: 3.157rem;
-    margin:0;
+    margin-bottom: 1rem;
     padding:0;
 }
 h3{
     font-family: 'Fraunces', serif;
     color:#16284d;
     font-size: 2.369rem;
-    margin:0;
+    margin-bottom: 1rem;
     padding:0;
 }
 h4{
     font-family: 'Fraunces', serif;
     color:#16284d;
     font-size: 1.777rem;
-    margin:0;
+    margin-bottom: 1rem;
     padding:0;
 }
 h5{
     font-family: 'Fraunces', serif;
     color:#16284d;
     font-size: 1.333rem;
-    margin:0;
+    margin-bottom: 1rem;
     padding:0;
 }
 h6{
     font-family: 'Fraunces', serif;
     color:#16284d;
     font-size: 1rem;
-    margin:0;
+    margin-bottom: 2rem;
     padding:0;
 }
 q{
@@ -67,7 +67,7 @@ q{
 }
 .subhead{
     font-size: 1.77rem;
-    margin:0;
+    margin-bottom: 1rem;
     padding:0;
 }
 p{
@@ -78,6 +78,9 @@ p{
     line-height: 1.75rem;
     margin:0;
     padding:0;
+}
+ul{
+    margin:0;
 }
 li{
     color:#16284d;
@@ -106,7 +109,7 @@ a:visited{
     float: right;
 }
 /* nav styles */
-ul{
+nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -116,14 +119,14 @@ ul{
     font-family: 'Commissioner', sans-serif;
     font-weight: 400;
 }
-li{
+nav li{
     display: inline-block;
     padding: 2em;
 }
-li a {
+nav li a {
     padding: 14px 16px;
 }
-li a:hover{
+nav li a:hover{
     border-bottom: solid 2px #1F3D7A;
     transition-property: width;
     transition-duration: 400ms;
@@ -187,36 +190,37 @@ header div{
     margin: 2em;
 }
 section{
-    background-color: cornflowerblue;
-    margin: 2em;
+    margin: 0;
 }
 
 footer{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    align-items: center;
-    margin: 2em;
-    background-color: darkgrey;
+    padding: 2rem;
+    background-color: #E9EFFB;
 }
+
 footer > .logo{
-    width: 20%;
+    max-width: 10vw;
+    margin: 0.5rem;
+
 }
-footer > div{
-padding: 1em;
-max-width: 200px;
-height: 300px;
+.footer-wrapper{
 display: flex;
-flex-flow: column nowrap;
-justify-content: flex-start;
-align-items: center;
-background-color: fuchsia;
+flex-flow: row nowrap;
+column-gap: 1rem;
 }
-#socials > ul{
+.footer-item{
     display: flex;
-    flex-flow: row nowrap;
-    padding: 1em;
-    background-color:antiquewhite
+    flex-flow: column nowrap;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+}
+.socials > ul{
+    display: flex;
+    column-gap: 0.5rem;
 }
 
 /* footer collapsible wrapper styles */
@@ -236,7 +240,7 @@ background-color: fuchsia;
     color: #E9EFFB;
   }
   .content {
-    padding: 0 18px;
+    padding: 20px 18px;
     display: none;
     overflow: hidden;
     background-color: #E9EFFB;

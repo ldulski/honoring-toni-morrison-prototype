@@ -26,28 +26,46 @@
         </div>
     </header>
     <main>
-    <section aria-label="Awards Photos">
-        <div class="carousel" data-carousel>
-            <button class="carousel-button prev" data-carousel-button="prev">‹</button>
-            <button class="carousel-button next" data-carousel-button="next">›</button>
-            <ul data-slides>
-                <li class="slide" data-active><img src="/app/images/morrison handshake.png">
-                    <h5>Nobel Prize in Literature</h5>
-                    <p>1993</p>
+    <section class="container">
+        <div class="slider-wrapper">
+
+            <ul class="slider">
+                <li id="slide-9">
+                    <img src="/app/images/morrison handshake.png">
+                    <div class="slider-text">
+                        <h5>Nobel Prize in Literature</h5>
+                        <p>1993</p>
+                    </div>
                 </li>
-                <li class="slide"><img src="/app/images/morrison headshot purple.jpg">
-                    <h5>Coretta Scott King Award for Authors</h5>
-                    <p>2005</p>
+                <li id="slide-10">
+                    <img src="/app/images/morrison headshot purple.jpg">
+                    <div class="slider-text">
+                        <h5>Coretta Scott King Award for Authors</h5>
+                        <p>2005</p>
+                    </div>
                 </li>
-                <li class="slide"><img src="/app/images/morrison obama 2.jpeg">
+                <li id="slide-11">
+                    <img src="/app/images/morrison obama 2.jpeg">
+                <div class="slider-text">
                     <h5>Presidential Medal of Freedom</h5>
                     <p>2012</p>
+                </div>
                 </li>
-                <li class="slide"><img src="/app/images/ToniMorrison_Tall_Story.png">
-                    <h5>NAACP Image Award for Outstanding Literary Work Nonfiction</h5>
-                    <p>2020</p>
+                <li id="slide-12">
+                    <img src="/app/images/ToniMorrison_Tall_Story.png">
+                    <div class="slider-text">
+                        <h5>NAACP Image Award for Outstanding Literary Work Nonfiction</h5>
+                        <p>2020</p>
+                    </div>
+
                 </li>
             </ul>
+            <div class="slider-nav">
+                <a href="#slide-9"></a>
+                <a href="#slide-10"></a>
+                <a href="#slide-11"></a>
+                <a href="#slide-12"></a>
+            </div>
         </div>
     </section>
     <section class="awards-section">
@@ -99,37 +117,39 @@
     <p><b>Toni Morrison</b> had an unwavering commitment to social justice and upheld the belief that the responsibility to make the world a better place lies in our hands. By reading stories by Black authors, you are uplifting Black voices and educating yourself about the Black community.</p>
 </section>
 </main>
-    <footer>
-        <img class="logo" src="/app/images/National-Geographic-Logo.svg">
-        <div>
-            <h6>Our Sites</h6>
+<footer>
+    <img class="logo" src="/app/images/National-Geographic-Logo.svg">
+    <div class="footer-wrapper">
+    <div class="footer-item">
+        <ul>
+            <li><h6>Our Sites</h6></li>
+            <li><a href="#"> Nat Geo Home</a></li>
+            <li><a href="#">Attend a Live Event</a></li>
+            <li><a href="#">Shop Nat Geo</a></li>
+            <li><a href="#">Inspire Your Kids</a></li>
+            <li><a href="#">Watch TV</a></li>
+        </ul>
+    </div>
+    <div class="footer-item">
+        <ul>
+            <li><h6>Join Us</h6></li>
+            <li><a href="#">Customer Service</a></li>
+            <li><a href="#">Manage Your Subscription</a></li>
+            <li><a href="#">Sign up for Our Newsletters</a></li>
+            <li><a href="#">Contribute to Protect the Planet</a></li>
+        </ul>
+    </div>
+    <div  class="socials">
+        <h6>Follow Us</h6>
             <ul>
-                <li><a href="#"> Nat Geo Home</a></li>
-                <li><a href="#">Attend a Live Event</a></li>
-                <li><a href="#">Shop Nat Geo</a></li>
-                <li><a href="#">Inspire Your Kids</a></li>
-                <li><a href="#">Watch TV</a></li>
+                <li><a href="#"><img src="/app/images/icons8-facebook.svg" alt="Blue Facebook Logo"></a></li>
+                <li><a href="#"><img src="/app/images/icons8-instagram.svg" alt="Blue Instagram Logo"></a></li>
+                <li><a href="#"><img src="/app/images/icons8-twitter.svg" alt="Blue Twitter Logo"></a></li>
             </ul>
-        </div>
-        <div>
-            <h6>Join Us</h6>
-            <ul>
-                <li><a href="#">Customer Service</a></li>
-                <li><a href="#">Manage Your Subscription</a></li>
-                <li><a href="#">Sign up for Our Newsletters</a></li>
-                <li><a href="#">Contribute to Protect the Planet</a></li>
-            </ul>
-        </div>
-        <div  id="socials">
-            <h6>Follow Us</h6>
-                <ul>
-                    <li><a href="#"><img src="/app/images/icons8-facebook.svg" alt="Blue Facebook Logo"></a></li>
-                    <li><a href="#"><img src="/app/images/icons8-instagram.svg" alt="Blue Instagram Logo"></a></li>
-                    <li><a href="#"><img src="/app/images/icons8-twitter.svg" alt="Blue Twitter Logo"></a></li>
-                </ul>
 
-        </div>
-    </footer>
+    </div>
+</div>
+</footer>
         <!-- credits wrapper -->
         <section>
             <button type="button" class="collapsible">References & Image Credits</button>

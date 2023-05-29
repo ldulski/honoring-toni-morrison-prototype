@@ -33,40 +33,44 @@
     </header>
     <main>
         <!-- morrion slider 1 -->
-<section aria-label="Early Life Photos">
-<div class="carousel" data-carousel>
-    <button class="carousel-button prev" data-carousel-button="prev">‹</button>
-    <button class="carousel-button next" data-carousel-button="next">›</button>
-<ul data-slides>
-    <li class="slide" data-active>
+<section class="container">
+<div class="slider-wrapper">
+<ul class="slider">
+    <li id="slide-1">
         <img src="/app/images/toni-morrison-childood-home.png" alt="An older rustic style home in black and white in fall">
-        <div>
+        <div class="slider-text">
         <h3>Life in Ohio</h3>
         <p>Chloe Anthony Wofford, later known as Toni Morrison, was born on February 18, 193. Growing up in Lorian, Ohio in a semi-integrated neighborhood Morrison faced racial discrimination at a young age. When she was baptized, at 12 years old, under the name Saint Anthony of Padua she got the nickname Toni.  </p>
         </div>
     </li>
-    <li class="slide">
-        <img src="/app/images/morrison2.jpeg" alt="A black and white photo of Toni Morrison in a suit and tie.">
-        <div>
+    <li id="slide-2">
+        <img  src="/app/images/morrison bts.jpg" alt="A black and white photo of Toni Morrison in a suit and tie.">
+        <div class="slider-text">
         <h3>Education</h3>
         <p>Morrison attended Howard University in 1949 earning her bachelors in English. In 1955, she attended Cornell University earning her Master of Arts in English. </p>
     </div>
     </li>
-    <li class="slide">
-        <img src="/app/images/morrison brown chair.jpeg" alt="Toni Morrison sitting comfortably in a brown leather armchair">
-        <div>
+    <li id="slide-3">
+        <img  src="/app/images/morrison brown chair.jpeg" alt="Toni Morrison sitting comfortably in a brown leather armchair">
+        <div class="slider-text">
         <h3>Career</h3>
         <p>Morrison taught English at Southern Texas University but quickly left to start teaching at Howard University for 7 years. Later she moved to Syracuse, New York working as a textbook editor for Random House Publishing.  Within 2 years, she was promoted to the New York City office as an editor for fiction books written by African-American authors. </p>
     </div>
     </li>
-    <li class="slide">
-        <img src="/app/images/morrison sons.jpeg" alt="A black and white photo of a young Toni Morrison with her sons Harold and Slade">
-        <div>
+    <li id="slide-4">
+        <img  src="/app/images/morrison sons.jpeg" alt="A black and white photo of a young Toni Morrison with her sons Harold and Slade">
+        <div class="slider-text">
         <h3>Motherhood</h3>
-        <p>During her time at Howard University she met her husband, Harold Morrison. A few years later she gave birth to her sons Harold and Slade.</p>
+        <p>During her time at Howard University she met her husband, Harold Morrison. A few years later she gave birth to her sons Harold and Slade. Later in her career she would begin to write childrens books with her son, Slade.</p>
          </div>
     </li>
 </ul>
+<div class="slider-nav">
+    <a href="#slide-1"></a>
+    <a href="#slide-2"></a>
+    <a href="#slide-3"></a>
+    <a href="#slide-4"></a>
+</div>
 </div>
 </section>
     <!-- cta section -->
@@ -82,20 +86,23 @@
         </form>
     </section>
 <!-- morrison slider 2 -->
-<section aria-label="Morrsion Quotes Photos">
+<section class="container quotes">
     <h3>Pieces of Her</h3>
     <p class="subhead">A selection of hand-written notes by Toni Morrison from her film “The Pieces I Am”.</p>
-    <div class="carousel" data-carousel>
-        <button class="carousel-button prev" data-carousel-button="prev">‹</button>
-        <button class="carousel-button next" data-carousel-button="next">›</button>
-        <ul data-slides>
-            <li class="slide" data-active><img src="/app/images/ToniMorrison_Artists_1x1_yellow.png"></li>
-            <li class="slide"><img src="/app/images/ToniMorrison_Distinctive_1x1.png"></li>
-            <li class="slide"><img src="/app/images/ToniMorrison_MothersDay_NotePadBIGGER_Yellow.png"></li>
-            <li class="slide"><img src="/app/images/ToniMorrison_Tall_Story.png"></li>
+    <div class="slider-wrapper">
+        <ul class="slider">
+            <li id="slide-5" ><img src="/app/images/ToniMorrison_Artists_1x1_yellow.png"></li>
+            <li id="slide-6"><img src="/app/images/ToniMorrison_Distinctive_1x1.png"></li>
+            <li id="slide-7"><img src="/app/images/ToniMorrison_MothersDay_NotePadBIGGER_Yellow.png"></li>
+            <li id="slide-8"><img src="/app/images/ToniMorrison_Tall_Story.png"></li>
         </ul>
+        <div class="slider-nav">
+            <a href="#slide-5"></a>
+            <a href="#slide-6"></a>
+            <a href="#slide-7"></a>
+            <a href="#slide-8"></a>
+        </div>
     </div>
-
 </section>
 <!-- honoring her legacy section -->
 <section class="honoring-section">
@@ -109,9 +116,10 @@
     </main>
     <footer>
         <img class="logo" src="/app/images/National-Geographic-Logo.svg">
-        <div>
-            <h6>Our Sites</h6>
+        <div class="footer-wrapper">
+        <div class="footer-item">
             <ul>
+                <li><h6>Our Sites</h6></li>
                 <li><a href="#"> Nat Geo Home</a></li>
                 <li><a href="#">Attend a Live Event</a></li>
                 <li><a href="#">Shop Nat Geo</a></li>
@@ -119,16 +127,16 @@
                 <li><a href="#">Watch TV</a></li>
             </ul>
         </div>
-        <div>
-            <h6>Join Us</h6>
+        <div class="footer-item">
             <ul>
+                <li><h6>Join Us</h6></li>
                 <li><a href="#">Customer Service</a></li>
                 <li><a href="#">Manage Your Subscription</a></li>
                 <li><a href="#">Sign up for Our Newsletters</a></li>
                 <li><a href="#">Contribute to Protect the Planet</a></li>
             </ul>
         </div>
-        <div  id="socials">
+        <div  class="socials">
             <h6>Follow Us</h6>
                 <ul>
                     <li><a href="#"><img src="/app/images/icons8-facebook.svg" alt="Blue Facebook Logo"></a></li>
@@ -137,6 +145,7 @@
                 </ul>
 
         </div>
+    </div>
     </footer>
         <!-- credits wrapper -->
         <section>
