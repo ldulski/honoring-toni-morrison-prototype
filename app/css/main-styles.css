@@ -222,6 +222,12 @@ column-gap: 1rem;
     display: flex;
     column-gap: 0.5rem;
 }
+.socials > img {
+    width: 50%;
+}
+.footer-item > li > a:hover{
+    color:#EDD767;
+}
 
 /* footer collapsible wrapper styles */
 .collapsible {
